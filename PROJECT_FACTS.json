@@ -1,0 +1,7 @@
+{
+  "name": "AquaScout | Map-Based Prospecting & Marketing Operations",
+  "stack": "React, TypeScript, Vite, Leaflet, Fastify, Zod, SQLite, Vitest, Playwright",
+  "project_status": "The source README reports that M2 prospecting readiness runs locally on a feature branch and has not been merged or deployed. No phone-number lookup or automated outbound messaging is claimed.",
+  "no_production_code_included": true,
+  "not_deployed": true
+}
