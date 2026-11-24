@@ -1,39 +1,41 @@
-# AquaScout | Map-Based Prospecting & Marketing Operations
+# AquaScout | Map-Based Prospect Research & Marketing Operations
 
-## Overview
-A local-first prospecting application built to help a residential sales team research property records, organize leads, and prioritize follow-ups.
+> **Portfolio case study · Documentation-only · Original source remains private**
 
-## Features
-- Interactive property map with Colorado public parcel data
-- Address search and parcel inspection
-- Local prospect list and pipeline status tracking
-- Follow-up queue and Do Not Contact safeguards
-- Fixture-based demo mode using fictional records
-- Automated local database backup and integrity checks
+A local-first application for exploring property records, organizing residential prospects, and managing follow-up. Built with AI-assisted development workflows.
 
-## Technical stack
-React, TypeScript, Vite, Leaflet, Fastify, Zod, SQLite, Vitest, Playwright
+## The problem
+Residential prospecting can involve fragmented property research, inconsistent lead records, and missed follow-ups.
 
-## Architecture
-- Public parcel provider and geocoder → validated server APIs
-- Fastify service → local SQLite prospect records and status
-- React map UI → selection, prospect management, follow-up queue
+## My contribution
+Product concept, workflow design, business use case, and iterative AI-assisted application development. I used AI coding assistance alongside practical testing and product decisions; I do not claim to have manually written every line of the private implementation.
 
-## Relevance to AI marketing and operations
-This project demonstrates lead research, audience segmentation infrastructure, pipeline organization, and operational safeguards. Any claimed 50% improvement in leads or appointments is not independently verified by this showcase.
+## How it works
+1. Explore a neighborhood on a map using public parcel and geocoder data.
+2. Inspect parcel records, data provenance, and unit information.
+3. Save selected properties to a local prospect list.
+4. Organize statuses and follow-up dates; honor Do Not Contact flags.
+
+## Architecture and technical approach
+Public parcel data and geocoding are accessed through server-side providers. A React/Leaflet UI presents records; Fastify and SQLite handle local records. TypeScript schema validation and automated checks support development.
+
+**Technologies:** React · TypeScript · Vite · Leaflet · Fastify · Zod · SQLite · Vitest · Playwright.
+
+## Why it matters to AI marketing
+A prospecting workflow designed to support audience research, lead organization, and follow-up operations; no quantified outcome is demonstrated by this repository.
 
 ## Project status and limitations
-The source README reports that M2 prospecting readiness runs locally on a feature branch and has not been merged or deployed. No phone-number lookup or automated outbound messaging is claimed.
+**Status:** Working local prototype documented in private source; feature branch M2 not merged or deployed in the source README.
 
-## Public demo and privacy
-Fictional parcels and prospects only. No customer names, contact lists, access credentials, or property-owner records included.
+- No implemented phone lookup.
+- No automated outbound marketing or messaging.
+- No externally verified lead or appointment performance attributable to this project.
 
-This is a **new, documentation-only public portfolio showcase** based on a review of selected repository documentation and metadata. It does **not** include or publish the original private source repository, code, customer data, credentials, commit history, or deployable system. Screenshots and video demonstrations may be added only after confirming they contain synthetic or redacted information.
+## Explore the project without screenshots
+Read [WORKFLOW.md](WORKFLOW.md) for a step-by-step, text-only case study and [PROJECT_FACTS.json](PROJECT_FACTS.json) for structured project metadata. No screenshots, recordings, customer data, or deployable application code are included in this portfolio repository.
 
-## Authorship and AI-assisted development
-Product direction and project ownership: Benjamin Jackson. Development involved AI-assisted coding tools and iterative testing. Do not interpret this showcase as a claim that every line of implementation was personally hand-written.
+## Privacy and scope
+This showcase was written independently from the original private repository. It shares high-level architecture and documented functionality only. It does **not** contain original production source, API keys, customer lists, call transcripts, internal pricing, environment files, or original Git history. See [SECURITY.md](SECURITY.md).
 
-## Next steps
-- Record a short walkthrough with only fictional/test data.
-- Add screenshots in `assets/` after visually checking for confidential information.
-- Add a verified results section with the measurement period and baseline, where available.
+## Contact and project ownership
+**Benjamin Jackson** — [GitHub profile](https://github.com/3104david-sketch) · AI marketing automation, applied AI systems, and growth operations.
