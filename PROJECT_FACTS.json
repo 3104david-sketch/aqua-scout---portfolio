@@ -1,7 +1,32 @@
 {
-  "name": "AquaScout | Map-Based Prospecting & Marketing Operations",
-  "stack": "React, TypeScript, Vite, Leaflet, Fastify, Zod, SQLite, Vitest, Playwright",
-  "project_status": "The source README reports that M2 prospecting readiness runs locally on a feature branch and has not been merged or deployed. No phone-number lookup or automated outbound messaging is claimed.",
-  "no_production_code_included": true,
-  "not_deployed": true
+  "project": "AquaScout",
+  "portfolio_title": "Map-Based Prospect Research & Marketing Operations",
+  "category": "local-first prospecting prototype",
+  "summary": "A local-first application for exploring property records, organizing residential prospects, and managing follow-up. Built with AI-assisted development workflows.",
+  "technologies": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Leaflet",
+    "Fastify",
+    "Zod",
+    "SQLite",
+    "Vitest",
+    "Playwright"
+  ],
+  "private_source_repository": true,
+  "showcase_type": "documentation-only",
+  "public_source_code_included": false,
+  "live_demo_included": false,
+  "screenshots_included": false,
+  "original_git_history_included": false,
+  "status": "Working local prototype documented in private source; feature branch M2 not merged or deployed in the source README.",
+  "limitations": [
+    "No implemented phone lookup",
+    "No automated outbound marketing or messaging",
+    "No externally verified lead or appointment performance attributable to this project"
+  ],
+  "owner": "Benjamin Jackson",
+  "development_approach": "AI-assisted coding and iterative product development",
+  "metrics_independently_verified_in_showcase": false
 }
